@@ -25,3 +25,15 @@ A ready-to-use, multi-purpose dev environment.
 
 ## Adding csproj files
 > dotnet sln add MyLibrary/MyLibrary.csproj
+
+## Add Coverlet + xUnit runner
+
+> dotnet add package xunit.runner.visualstudio
+
+then
+
+> dotnet add package coverlet.collector
+
+then
+
+> dotnet add package ReportGenerator

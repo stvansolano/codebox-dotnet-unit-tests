@@ -14,4 +14,14 @@ A ready-to-use, multi-purpose dev environment.
 
 ## Using .NET CLI project templates
 
+## Create new projects (classlib+xunit)
 > dotnet new --list
+
+## Adding references (current directory)
+> dotnet add reference ../MyLibrary/MyLibrary.csproj
+
+## Adding sln file
+> dotnet new sln
+
+## Adding csproj files
+> dotnet sln add MyLibrary/MyLibrary.csproj

@@ -3,8 +3,8 @@
 # Find the Dockerfile for mcr.microsoft.com/azure-functions/python:3.0-python3.8-core-tools at this URL
 # https://github.com/Azure/azure-functions-docker/blob/dev/host/3.0/buster/amd64/python/python38/python38-core-tools.Dockerfile
 
-ARG VARIANT=5.0
-FROM mcr.microsoft.com/vscode/devcontainers/dotnetcore:${VARIANT}
+ARG VARIANT=6.0
+FROM mcr.microsoft.com/dotnet/nightly/sdk:${VARIANT}
 
 # Options
 ARG INSTALL_ZSH="true"
